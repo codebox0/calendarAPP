@@ -1,0 +1,24 @@
+.event{
+    display: flex;
+    align-content: stretch;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    align-items: flex-start;
+    border-top: 0.3px dashed #0078d4;
+    background-color: #c9dff5;
+    overflow: hidden;
+    border-left: 2px solid #0078d4;
+    padding: 2px 5px;
+}
+.event__title{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.event__time {
+    color: #004377;
+    font-size: 0.5rem;
+    font-weight: bold;
+}
